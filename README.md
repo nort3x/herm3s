@@ -28,8 +28,29 @@ password = 'change_me'
 
 silent = 0  # 0 = verbose/ -1 = very verbose/ 1 = silent
 
+
+# -------- Slave ---------
+* defaults (change these parameters)
+* or just leave them be like this if you want just test it out
+
+sv_ip = '127.0.0.1'
+
+sv_port = 3223
+
+retry_delay_connect = 5
+
+password = 'change_me'
+
+default_name = 'Slave_t3st'
+
+
+# [Hint] in last paragraph be sure to check this out:
+* main spinner
+* for melting(start up function) and make hidden directory remove # from get_ready()
+* #get_ready()
+
 # interactive shell commands:
-# ----- main shell commands ----
+* ----- main shell commands ----
 
 help                    show this banner
 
@@ -43,7 +64,7 @@ select                  [ID] go to slave control point
 
 clear                   clear the screen
 
-# ----- Slave control point ----
+* ----- Slave control point ----
 
 send                    [path][filename] send file to  slave
 
@@ -62,25 +83,5 @@ shutdown                shutdown slave machine
 reboot                  reboot slave machine
 
 
-# -------- Slave ---------
-# defaults (change these parameters)
-# or just leave them be like this if you want just test it out
-
-sv_ip = '127.0.0.1'
-
-sv_port = 3223
-
-retry_delay_connect = 5
-
-password = 'change_me'
-
-default_name = 'Slave_t3st'
-
-
-# [Hint] in last paragraph be sure to check this out:
-*main spinner
-*for melting(start up function) and make hidden directory remove # from get_ready()
-*#get_ready()
-
 -peace <3
-*nort3x
+* nort3x
