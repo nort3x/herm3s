@@ -1,10 +1,13 @@
 # herm3s
 simple sample of botnets (python)
 [Note] Herm3s is 'NOT' a fully functional botnet 
-\n
+
 1-its simple
+
 2-good for beginners
+
 3-easy to edit
+
 4-no any encryptions
 
 Herm3s is a botnet written in Python for beginners to start thinking how botnets work and how can you improve it in your way
