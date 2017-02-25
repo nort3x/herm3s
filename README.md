@@ -1,6 +1,5 @@
 # herm3s
 simple sample of botnets (python)
-
 [Note] Herm3s is 'NOT' a fully functional botnet 
 
 1-its simple
@@ -9,11 +8,10 @@ simple sample of botnets (python)
 4-no any encryptions
 
 Herm3s is a botnet written in Python for beginners to start thinking how botnets work and how can you improve it in your way
-
 iam not responsible for anything you are going to do with it
 
 every help you might need is in the source by it self but i will dump it here:
-------------- Master -----------------------
+# ------------- Master -----------------------
 # defaults (change these parameters)
 # or just leave them be like this if you want just test it out
 sv_ip = '127.0.0.1'
@@ -22,7 +20,7 @@ password = 'change_me'
 silent = 0  # 0 = verbose/ -1 = very verbose/ 1 = silent
 
 # interactive shell commands:
------ main shell commands ----
+# ----- main shell commands ----
 
 help                    show this banner
 search                  [keyword]search in list for specific Slave name
@@ -31,7 +29,7 @@ verbose                 -1/0/1/check {-1:High, 0:medium, 1:silent} verbosity
 select                  [ID] go to slave control point
 clear                   clear the screen
 
------ Slave control point ----
+# ----- Slave control point ----
 
 send                    [path][filename] send file to  slave
 recv                    [path][filename] get file from slave
@@ -43,7 +41,7 @@ shutdown                shutdown slave machine
 reboot                  reboot slave machine
 
 
--------- Slave ---------
+# -------- Slave ---------
 # defaults (change these parameters)
 # or just leave them be like this if you want just test it out
 
